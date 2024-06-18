@@ -129,5 +129,8 @@ WHERE index = 3;
 UPDATE configura_viaje
 
 SET pregunta_en = 'How are you going to move?', opcion_1_en = 'By taxi', opcion_2_en = 'By bus', opcion_3_en = 'In maritime transport', opcion_4_en = 'By rental car'
-
+  
 WHERE index = 4;
+
+UPDATE creditos
+SET texto_en = 'The new IBIZA SMART ISLAND APP aims to enrich your visit to our island by providing content to your stay, because what is known is loved, what is loved is cared for and what is cared for is remembered.';
